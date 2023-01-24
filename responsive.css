@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 375px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        padding-right: 25px;
+        overflow-x: hidden;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .column1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .column3 {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .column1 button {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .column2 button {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .column3 button {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+}
